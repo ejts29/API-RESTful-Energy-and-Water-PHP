@@ -1,0 +1,1275 @@
+{
+	"info": {
+		"_postman_id": "a5a20fb0-2bdb-46f2-98b9-e23cf87ff298",
+		"name": "backend_U2_Energy and Water",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43801966",
+		"_collection_link": "https://efren-4907564.postman.co/workspace/efren-'s-Workspace~10da0c18-f91b-4448-8c8e-fa1269048bb7/collection/43801966-a5a20fb0-2bdb-46f2-98b9-e23cf87ff298?action=share&source=collection_link&creator=43801966"
+	},
+	"item": [
+		{
+			"name": "categoria_servicio",
+			"item": [
+				{
+					"name": "New Request api/categoria_servicio",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water\\backend\\v1\\api\\categoria_servicio\\index.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"categoria_servicio",
+								"index.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request api/categoria_servicio",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"Nueva Categoría2\",\r\n  \"imagen\": \"URL de la imagen2\",\r\n  \"texto\": \"Descripción de la categoría2\",\r\n  \"activo\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water\\backend\\v1\\api\\categoria_servicio\\index.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"categoria_servicio",
+								"index.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Requestapi/categoria_servicio",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"nueva prueba para put22\",\r\n  \"imagen\": \"https://www.energyandwater.cl/gallery_gen/3cf1905198e9763be7cf8a3276a8375b_559x1125_79x0_771x1125_crop.jpg\",\r\n  \"texto\": \"Instalamos, reparamos y revisamos todo tipo de sistemas de aire acondicionado, tanto domésticos como industriales. Nos encargamos de la limpieza, el cambio de filtros, la recarga de gas y la detección y solución de averías.\",\r\n  \"activo\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy%20and%20Water/backend/v1/api/categoria_servicio/index.php?id=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy%20and%20Water",
+								"backend",
+								"v1",
+								"api",
+								"categoria_servicio",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request api/categoria_servicio",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"activo\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy%20and%20Water/backend/v1/api/categoria_servicio/index.php?id=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy%20and%20Water",
+								"backend",
+								"v1",
+								"api",
+								"categoria_servicio",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request api/categoria_servicio",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water/backend/v1/api/categoria_servicio/index.php?id=6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"categoria_servicio",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "6"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "equipo",
+			"item": [
+				{
+					"name": "New Request equipo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/Energy and Water\\backend\\v1\\api\\equipo\\index.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"equipo",
+								"index.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request equipo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"tipo\": \"nuevo tipo\",\r\n  \"texto\": \"nuevo texto para historia\",\r\n  \"activo\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water\\backend\\v1\\api\\equipo\\index.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"equipo",
+								"index.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request equipo",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"texto\": \"Este es el texto actualizado del equipo con ID 8.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water/backend/v1/api/equipo/index.php?id=8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"equipo",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "8"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request equipo",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"activo\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water/backend/v1/api/equipo/index.php?id=8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"equipo",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "8"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request equipo",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/Energy and Water/backend/v1/api/equipo/index.php?id=8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"equipo",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "8"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "historia",
+			"item": [
+				{
+					"name": "New Request historia",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/Energy and Water\\backend\\v1\\api\\historia\\index.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"historia",
+								"index.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request historia",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"tipo\": \"nuevo tipo\",\r\n  \"texto\": \"nuevo texto para historia\",\r\n  \"activo\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water\\backend\\v1\\api\\historia\\index.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"historia",
+								"index.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request historia",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"texto\": \"Este es el texto actualizado de la historia1.\",\r\n  \"activo\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water/backend/v1/api/historia/index.php?id=8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"historia",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "8"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request historia",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"activo\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water/backend/v1/api/historia/index.php?id=8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"historia",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "8"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request historia",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/Energy and Water/backend/v1/api/historia/index.php?id=8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"historia",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "8"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "info_contacto",
+			"item": [
+				{
+					"name": "New Request info_contacto",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/Energy and Water\\backend\\v1\\api\\info_contacto\\index.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"info_contacto",
+								"index.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request info_contacto",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"var template = `\r",
+									"<style type=\"text/css\">\r",
+									"    .tftable {\r",
+									"        font-size:14px;\r",
+									"        color:#333;\r",
+									"        width:100%;\r",
+									"        border-width:1px;\r",
+									"        border-color:#87ceeb;\r",
+									"        border-collapse: collapse;\r",
+									"    }\r",
+									"    .tftable th {\r",
+									"        font-size:16px;\r",
+									"        background-color:#87ceeb;\r",
+									"        border:1px solid #87ceeb;\r",
+									"        padding:8px;\r",
+									"        text-align:left;\r",
+									"    }\r",
+									"    .tftable tr {\r",
+									"        background-color:#fff;\r",
+									"    }\r",
+									"    .tftable td {\r",
+									"        font-size:14px;\r",
+									"        border:1px solid #87ceeb;\r",
+									"        padding:8px;\r",
+									"    }\r",
+									"    .tftable tr:hover {\r",
+									"        background-color:#e0ffff;\r",
+									"    }\r",
+									"</style>\r",
+									"\r",
+									"<table class=\"tftable\">\r",
+									"    <thead>\r",
+									"        <tr>\r",
+									"            <th>Error Type</th>\r",
+									"            <th>Message</th>\r",
+									"            <th>Field</th>\r",
+									"            <th>Location</th>\r",
+									"        </tr>\r",
+									"    </thead>\r",
+									"    <tbody>\r",
+									"        {{#each response.errors}}\r",
+									"        <tr>\r",
+									"            <td>{{this.type}}</td>\r",
+									"            <td>{{this.msg}}</td>\r",
+									"            <td>{{this.path}}</td>\r",
+									"            <td>{{this.location}}</td>\r",
+									"        </tr>\r",
+									"        {{/each}}\r",
+									"    </tbody>\r",
+									"</table>\r",
+									"`;\r",
+									"\r",
+									"function constructVisualizerPayload() {\r",
+									"    try {\r",
+									"        return { response: pm.response.json() };\r",
+									"    } catch (e) {\r",
+									"        return {\r",
+									"            response: {\r",
+									"                errors: [{\r",
+									"                    type: \"Parser\",\r",
+									"                    msg: \"Invalid JSON in response\",\r",
+									"                    path: \"-\",\r",
+									"                    location: \"response\"\r",
+									"                }]\r",
+									"            }\r",
+									"        };\r",
+									"    }\r",
+									"}\r",
+									"\r",
+									"pm.visualizer.set(template, constructVisualizerPayload());\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var template = `\r",
+									"<style type=\"text/css\">\r",
+									"    .tftable {\r",
+									"        font-size:14px;\r",
+									"        color:#333;\r",
+									"        width:100%;\r",
+									"        border-width:1px;\r",
+									"        border-color:#87ceeb;\r",
+									"        border-collapse: collapse;\r",
+									"    }\r",
+									"    .tftable th {\r",
+									"        font-size:16px;\r",
+									"        background-color:#87ceeb;\r",
+									"        border:1px solid #87ceeb;\r",
+									"        padding:8px;\r",
+									"        text-align:left;\r",
+									"    }\r",
+									"    .tftable tr {\r",
+									"        background-color:#fff;\r",
+									"    }\r",
+									"    .tftable td {\r",
+									"        font-size:14px;\r",
+									"        border:1px solid #87ceeb;\r",
+									"        padding:8px;\r",
+									"    }\r",
+									"    .tftable tr:hover {\r",
+									"        background-color:#e0ffff;\r",
+									"    }\r",
+									"</style>\r",
+									"\r",
+									"<table class=\"tftable\">\r",
+									"    <thead>\r",
+									"        <tr>\r",
+									"            <th>Error Type</th>\r",
+									"            <th>Message</th>\r",
+									"            <th>Field</th>\r",
+									"            <th>Location</th>\r",
+									"        </tr>\r",
+									"    </thead>\r",
+									"    <tbody>\r",
+									"        {{#each response.errors}}\r",
+									"        <tr>\r",
+									"            <td>{{this.type}}</td>\r",
+									"            <td>{{this.msg}}</td>\r",
+									"            <td>{{this.path}}</td>\r",
+									"            <td>{{this.location}}</td>\r",
+									"        </tr>\r",
+									"        {{/each}}\r",
+									"    </tbody>\r",
+									"</table>\r",
+									"`;\r",
+									"\r",
+									"function constructVisualizerPayload() {\r",
+									"    try {\r",
+									"        return { response: pm.response.json() };\r",
+									"    } catch (e) {\r",
+									"        return {\r",
+									"            response: {\r",
+									"                errors: [{\r",
+									"                    type: \"Parser\",\r",
+									"                    msg: \"Invalid JSON in response\",\r",
+									"                    path: \"-\",\r",
+									"                    location: \"response\"\r",
+									"                }]\r",
+									"            }\r",
+									"        };\r",
+									"    }\r",
+									"}\r",
+									"\r",
+									"pm.visualizer.set(template, constructVisualizerPayload());\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"nuevo_contacto1\",\r\n  \"texto\": \"nueva información de contacto1\",\r\n  \"texto_adicional\": \"información adicional1\",\r\n  \"activo\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water\\backend\\v1\\api\\info_contacto\\index.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"info_contacto",
+								"index.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request info_contacto",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"texto\": \"1información de contacto actualizada\",\r\n  \"activo\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water/backend/v1/api/info_contacto/index.php?id=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"info_contacto",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request info_contacto",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"activo\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water/backend/v1/api/info_contacto/index.php?id=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"info_contacto",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request info_contacto",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/Energy and Water/backend/v1/api/info_contacto/index.php?id=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"info_contacto",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "mantenedor",
+			"item": [
+				{
+					"name": "New Request mantenedor index.php",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/Energy and Water\\backend\\v1\\api\\mantenedor\\index.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"mantenedor",
+								"index.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request mantenedor index.php",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water\\backend\\v1\\api\\mantenedor\\index.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"mantenedor",
+								"index.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "mantenimiento_info",
+			"item": [
+				{
+					"name": "New Request mantenimiento_info",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/Energy and Water\\backend\\v1\\api\\mantenimiento_info\\index.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"mantenimiento_info",
+								"index.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request mantenimiento_info",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"nuevo_mantenimiento\",\r\n  \"texto\": \"nueva información de mantenimiento\",\r\n  \"activo\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water\\backend\\v1\\api\\mantenimiento_info\\index.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"mantenimiento_info",
+								"index.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request mantenimiento_info",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"texto\": \"información de mantenimiento actualizada1\",\r\n  \"activo\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water/backend/v1/api/mantenimiento_info/index.php?id=4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"mantenimiento_info",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request mantenimiento_info",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"activo\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water/backend/v1/api/mantenimiento_info/index.php?id=4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"mantenimiento_info",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request mantenimiento_info",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/Energy and Water/backend/v1/api/mantenimiento_info/index.php?id=4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"mantenimiento_info",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "pregunta_frecuente",
+			"item": [
+				{
+					"name": "New Request pregunta_frecuente",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/Energy and Water\\backend\\v1\\api\\pregunta_frecuente\\index.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"pregunta_frecuente",
+								"index.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request pregunta_frecuente",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"pregunta\": \"Nueva pregunta frecuente1\",\r\n  \"respuesta\": \"Esta es la respuesta a la nueva pregunta1.\",\r\n  \"activo\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water\\backend\\v1\\api\\pregunta_frecuente\\index.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"pregunta_frecuente",
+								"index.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request pregunta_frecuente",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"pregunta\": \"1Pregunta frecuente actualizada\",\r\n  \"respuesta\": \"1Esta es la respuesta actualizada.\",\r\n  \"activo\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water/backend/v1/api/pregunta_frecuente/index.php?id=4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"pregunta_frecuente",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request pregunta_frecuente",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"activo\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Energy and Water/backend/v1/api/pregunta_frecuente/index.php?id=4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"pregunta_frecuente",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request pregunta_frecuente",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/Energy and Water/backend/v1/api/pregunta_frecuente/index.php?id=4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Energy and Water",
+								"backend",
+								"v1",
+								"api",
+								"pregunta_frecuente",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
