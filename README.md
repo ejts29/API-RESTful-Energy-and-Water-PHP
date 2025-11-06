@@ -1,6 +1,6 @@
 # API RESTful: Gestión de Mantenimiento "Energy and Water" (PHP/MySQL)
 
-Proyecto de **Desarrollo Backend** implementado como **Evaluación Sumativa de la Unidad 2**, en el marco del Taller de Tecnologías Web. La solución consiste en una API RESTful funcional diseñada para gestionar los servicios e información de la empresa **Energy and Water**.
+Proyecto de **Desarrollo Backend** implementado como **Evaluación Sumativa de la Unidad 2**. La solución consiste en una API RESTful funcional diseñada para gestionar los servicios e información de la empresa **Energy and Water**.(empresa ficticia)
 
 El objetivo es demostrar la capacidad de **construir, integrar, mantener y probar** un servicio API complejo, cumpliendo con los resultados de aprendizaje de la asignatura.
 
